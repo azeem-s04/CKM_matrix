@@ -9,7 +9,7 @@ Created on Thu Nov 12 14:33:07 2026
 from pathlib import Path
 import os
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 os.chdir(PROJECT_ROOT)
 
 #%% Imports
@@ -27,7 +27,7 @@ import modules.unitarity as unitarity
 
 V = ckm.CKM_matrix(13, 2.4, 0.214, 65.7)
 
-
+print(V[0])
         
 deviation_U = unitarity.unitarity(V[0])
 
