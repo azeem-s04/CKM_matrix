@@ -1,0 +1,38 @@
+CKM_Project/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── project_structure.txt <---- CURRENT
+│
+├── data/
+│   ├── ckm_measurements.csv
+│   └── reference_values.csv
+│
+├── modules/
+│   ├── ckm.py
+│   ├── unitarity.py
+│   ├── wolfenstein.py
+│   ├── cp_violation.py
+│   ├── fitting.py
+│   └── monte_carlo.py
+│
+├── notebooks/
+│   ├── 01_CKM_Construction.py
+│   ├── 02_Unitarity.py
+│   ├── 03_Unitarity_Triangles.py
+│   ├── 04_Wolfenstein.py
+│   ├── 05_CP_Violation.py
+│   ├── 06_Experimental_Fitting.py
+│   ├── 07_Uncertainty_Analysis.py
+│   └── 08_New_Physics.py
+│
+├── figures/
+│
+├── tests/
+│   ├── test_ckm.py
+│   └── test_unitarity.py
+│
+└── report/
+│   ├── project_report.tex
+│   └── project_report.pdf
